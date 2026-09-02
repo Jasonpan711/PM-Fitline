@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base:'/PM-Fitline/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
